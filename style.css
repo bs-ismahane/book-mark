@@ -514,26 +514,8 @@ html{
     }
     .part2{
         justify-content: center;
-        flex-direction: column;
     }
-    .part2 ul:first-of-type{
-        flex-direction: column;
-        text-align: center;
-        margin:10px;
-    }
-    .part2 ul:first-of-type li{
-        margin: 10px 0;
-    }
-    .part2 ul:first-of-type li a{
-        color: white;
-    }
-    .part2 ul:last-of-type{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-        gap: 30px;
-    }
-    .part2 ul:last-of-type li{
-        cursor: pointer;
-    }
+    .part2 a{
+        font-waight:bold;
+        color:var(--Soft-Blue);
 }
