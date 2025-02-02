@@ -296,19 +296,14 @@ html{
     border-radius: 6px;
 }
 .part2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color:  hsla(229, 31%, 21%, 0.8);
     padding:12px 21px;
+    text-align:center;
 }
-.part2 ul{
-    display: flex;
-    justify-content: center;
-}
-.part2 ul li{
-    margin:0 8px;
-}
+.part2 a{
+        font-waight:bold;
+        color:var(--Soft-Blue);
+    }
 /* For medium screens (e.g., tablets, 768px to 1439px) */
 @media screen and (min-width: 768px) {
     .container {
@@ -512,10 +507,4 @@ html{
      .part1 form div.error{
         margin-bottom: 30px;
     }
-    .part2{
-        justify-content: center;
-    }
-    .part2 a{
-        font-waight:bold;
-        color:var(--Soft-Blue);
 }
