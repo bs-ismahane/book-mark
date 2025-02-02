@@ -301,8 +301,10 @@ html{
     text-align:center;
 }
 .part2 a{
-        font-waight:bold;
-        color:var(--Soft-Blue);
+  font-size: 24px;
+    display: block;
+  margin: auto;
+        color:white;
     }
 /* For medium screens (e.g., tablets, 768px to 1439px) */
 @media screen and (min-width: 768px) {
